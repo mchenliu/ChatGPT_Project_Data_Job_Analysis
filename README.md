@@ -1,5 +1,5 @@
 # :bulb:  What are the most optimal skills to land a job in data analysis?
-This project was is completed following Luke Barousse's [Youtube course].(https://www.lukebarousse.com/chatgpt)
+This project was is completed following Luke Barousse's [Youtube course](https://www.lukebarousse.com/chatgpt).
 
 :bar_chart: **Data Source:** [datanerd.tech](https://www.datanerd.tech/)
 
