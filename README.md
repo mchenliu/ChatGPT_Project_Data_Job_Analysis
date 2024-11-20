@@ -50,10 +50,10 @@ Central Perk serves as the primary social hub. The other prominent locations are
 
 ![Settings](images/Setting.png)
 
-### :three: Jokes
+### :three: Humor
 
-- **Season 6 Peak**: There is a notable peak in humor contributions in Season 6, with most characters showing increased joke counts, especially Chandler and Ross.
-- **Season 2 Dip**: Humor contributions reach a low point in Season 2, as indicated by almost all characters having a decrease in their joke counts.
+- **Season 6 Peak**: There is a notable peak in humor contributions in Season 6, with most characters showing increased humor, especially Chandler and Ross.
+- **Season 2 Dip**: Humor contributions reach a low point in Season 2, as indicated by almost all characters having a decrease in their humor.
 - **Fluctuations Across Seasons**: Chandler and Ross show the most noticeable spikes and declines, while Phoebe, Monica, and Rachel maintain steadier contributions across seasons.
 
 Chandler and Ross are the main drivers of humor throughout the series. Season 6 is a comedic high point for the entire show.
@@ -120,7 +120,7 @@ where:
 
     | Character    | Sentiment Score |
     | Phoebe       |            0.099|
-    |Rachel        |            0.086|
+    | Rachel       |            0.086|
     | Chandler     |            0.086|
     | Ross         |            0.085|
     | Joey         |            0.082|
@@ -134,42 +134,43 @@ where:
 
 
 # :chart_with_upwards_trend: Correlation Analysis
-### :one: Jokes-Number of Scenes/Lines Correlation Analysis
+### :one: Humor-Number of Scenes/Lines Correlation Analysis
 
 ### The Findings:
-- The positive correlation means that characters who are in more scenes or have more lines generally tend to have more jokes.
+- The positive correlation means that characters who are in more scenes or have more lines generally tend to have more humor.
 - The wide confidence interval suggests there is still a lot of variability, and while the trend appears to be positive, it is not perfectly consistent across all characters.
 
-Chandler appears to have the strongest presence in terms of both jokes and scenes/lines, while Phoebe remains lower in both.
+Chandler appears to have the strongest presence in terms of both humor and scenes/lines, while Phoebe remains lower in both.
 ![Correlation Analysis1](images/Correlation%20Analysis2.png)
 ![Correlation Analysis2](images/Correlation%20Analysis3.png)
 
 
-### :two: Jokes-Lexical Diversity Correlation Analysis
+### :two: Humor-Lexical Diversity Correlation Analysis
 
 
 ### The Findings:
-- The negative correlation means generally, as lexical diversity increases, the number of jokes tends to decrease slightly, but the relationship is not strong.
+- The negative correlation means generally, as lexical diversity increases, humor tends to decrease slightly, but the relationship is not strong.
 - The confidence interval indicates a lot of variability, this correlation is not statistically significant, meaning we cannot confidently claim there is a relationship based on this data alone.
 
 
 
 
-The relationship between jokes and lexical diversityisn't meaningful, and other factors could be influencing joke frequency.
+The relationship between humor and lexical diversityisn't meaningful, and other factors could be influencing humor frequency.
 ![Correlation Analysis3](images/Correlation%20Analysis1.png)
 
 
-### :three: Jokes-Sentiment Scores Correlation Analysis
+### :three: Humor-Sentiment Scores Correlation Analysis
 
 ### The Findings:
-- The negative correlation means a strong negative correlation between sentiment and jokes. This means that characters with less positive sentiment tend to make more jokes. Phoebe has a relatively high sentiment score but a low number of jokes, which fits her quirky but not joke-heavy persona. Chandler, known for his sarcasm, has a lower sentiment score and high number of jokes. This suggests that his humor is often delivered with a sarcastic or cynical undertone.
+- The negative correlation means a strong negative correlation between sentiment and humor. This means that characters with less positive sentiment tend to make more humorous. Phoebe has a relatively high sentiment score but a low humor, which fits her quirky but not humorous persona. Chandler, known for his sarcasm, has a lower sentiment score and high humor. This suggests that his humor is often delivered with a sarcastic or cynical undertone.
 - The confidence interval showing a range of uncertainty around the trend line.
 
-The negative correlation is statistically significant, meaning there's a consistent relationship between lower sentiment scores and more jokes for these characters.
+The negative correlation is statistically significant, meaning there's a consistent relationship between lower sentiment scores and humor for these characters.
 ![Correlation Analysis4](images/Correlation%20Analysis4.png)
 
-## The Results
+
 # What I Learned
+:fuelpump: ChatGPT is a very powerful tool that can aid with data analysis work. I can custom my GPT to produce results in tone that I prefer. At the same time, I should be aware of GPT hallucinating in prompts. A resolution to avoid is by adding 'search the Internet' at beginning of the prompt. 
 # Conclusions
 ### Insights
 ### Closing Thoughts
