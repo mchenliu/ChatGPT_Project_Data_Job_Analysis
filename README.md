@@ -1,6 +1,6 @@
 ![Friends](images/Friends.png)
 # Table of Context
-___
+
 - [Table of Context](#table-of-context)
 - [:ab: Introduction](#ab-introduction)
 - [:hammer: Tools I used](#hammer-tools-i-used)
@@ -27,7 +27,7 @@ ___
 - [:accept: What I Learned](#accept-what-i-learned)
 
 # :ab: Introduction
-___
+
 :mega: This project explores screenplay script of the most popular television sitcom [Friends](https://en.wikipedia.org/wiki/Friends) with ChatGPT to provide some inights of the show.  
 This project was completed following Luke Barousse's [Youtube tutorial](https://www.lukebarousse.com/chatgpt).
 
@@ -36,12 +36,12 @@ This project was completed following Luke Barousse's [Youtube tutorial](https://
 :moyai: **AI Disclaimer:** This entire project, except for 'What I Learned' section, was built using ChatGPT, from generating the code for visualizations to producing the text for this markdown file.  
 
 # :hammer: Tools I used
-___
+
 - **ChatGPT:** An AI language model that can understand and generate human-like text based on the input it receives. It helps answer questions, write content, and assist with various tasks in natural language.
 - **Git & Github:** My go-to for version control and tracking my project progress.
 
 # :mag: Exploratory Data Analysis
-___
+
 
 ### :one: Number of Scenes/ Lines
 - Rachel: 
@@ -165,7 +165,7 @@ where:
 
 
 # :chart_with_upwards_trend: Correlation Analysis
-___
+
 ### :one: Humor-Number of Scenes/Lines Correlation Analysis
 
 ### The Findings:
@@ -202,11 +202,11 @@ The negative correlation is statistically significant, meaning there's a consist
 
 
 # :pencil2: Conclusions
-___
+
 This project analyzes the popular sitcom Friends, diving into character dynamics, setting preferences, humor trends, and dialogue diversity. Key insights reveal that Rachel leads in lines, Central Perk is the most frequent setting, Chandler and Ross drive humor, and Phoebe maintains the most positive sentiment. The correlation analyses suggest a complex interplay between humor, sentiment, and lexical diversity, highlighting unique character traits like Chandler's sarcastic wit and Phoebe's quirky optimism.
 
 # :accept: What I Learned
-___
+
 :fuelpump: **Use ChatGPTas an assistant:** ChatGPT is a powerful tool that can significantly enhance data analysis workflows. To improve the accuracy of its responses, I can customize the model to better align with my specific needs. Crafting a well-structured prompt is crucial; providing clear tasks and context forms the foundation of an effective prompt. Adding details about the desired format and tone further refines the response. Additionally, I should stay vigilant about potential inaccuracies or "hallucinations" from ChatGPT. One way to mitigate this is by including 'search the internet' in the prompt to ensure more reliable information.
 
 :bookmark_tabs: **Know the data I'm working with:** Even though ChatGPT is very powerful, it still has limitations and can sometimes give misleading results because of errors or biases in the data it uses. This is why it's so important for me to understand the dataset I'm working with before starting any analysis. Good data quality is key to getting reliable AI insights, which is why data cleaning is always the first step in the ETL (Extract, Transform, Load) process. By making sure the data is accurate and consistent, I can reduce mistakes and make the results more trustworthy. I also need to stay critical of the results, interpret them carefully, and look out for any possible errors or inconsistencies.
