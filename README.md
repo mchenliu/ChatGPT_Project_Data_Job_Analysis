@@ -12,7 +12,31 @@
 
 # :mag: Exploratory Data Analysis
 
-### Setting Frequency
+### :one: Number of Scenes/ Lines
+- Rachel: 
+    - Leads in number of lines (18.3% of total).
+    - Has a strong scene presence (17.0%), indicating a central role in both dialogue and appearances.
+- Ross:
+    - Close second in number of lines (17.8%), highlighting his role in driving the narrative.
+    - Slightly lower in scene appearances (16.3%) compared to Chandler and Joey, indicating that his moments are dialogue-heavy.
+- Chandler:
+    - Has the highest number of scene appearances (17.5% of total).
+    - Contributes 16.5% of total lines, suggesting that although he's often on-screen, he's not always the character with the most dialogue.
+- Monica:
+    - Has 16.4% of lines and a similar scene presence (16.7%), showing that her role is fairly balanced in both dialogue and screen time.
+- Joey:
+    - Has 16.3% of total lines and a high scene presence (17.0%).
+    - Joey appears often but his dialogue contribution is slightly less than some other characters, which emphasizes his role in group dynamics and interactions.
+- Phoebe:
+    - Has the fewest lines (14.7%) and least scene appearances (15.6%).
+    -Although her contributions are smaller, her quirky and memorable moments stand out, providing quality over quantity.
+
+This shows each character's relative importance in terms of both their dialogue and scene involvement throughout the series.
+![Number_of_Scenes_Lines](images/Number_of_Lines_Scenes.png)
+
+
+### :two: Setting Frequency
+
 - **Central Perk** by far the most common setting, with nearly 200 scenes. This suggests that Central Perk is a central social hub for the characters throughout the series.
 
 - **Ross's Apartment and Joey's Apartment** are the next most frequent settings, but they are used much less compared to Central Perk.
@@ -26,7 +50,8 @@ Central Perk serves as the primary social hub. The other prominent locations are
 
 ![Settings](images/Setting.png)
 
-### Jokes
+### :three: Jokes
+
 - **Season 6 Peak**: There is a notable peak in humor contributions in Season 6, with most characters showing increased joke counts, especially Chandler and Ross.
 - **Season 2 Dip**: Humor contributions reach a low point in Season 2, as indicated by almost all characters having a decrease in their joke counts.
 - **Fluctuations Across Seasons**: Chandler and Ross show the most noticeable spikes and declines, while Phoebe, Monica, and Rachel maintain steadier contributions across seasons.
@@ -35,7 +60,7 @@ Chandler and Ross are the main drivers of humor throughout the series. Season 6 
 
 ![Jokes](images/jokes.png)
 
-### Common Words Used
+### :four: Common Words Used
 
 - **Most Common Words:** The words "know", "oh", and "okay" are words were frequently used by the main characters.Other notable words include "yeah", "right", "hey", and "like".
 - **Conversational Language:** The frequent appearance of words like "know", "oh", "yeah", and "okay" suggests that the characters use a lot of casual conversational fillers.
@@ -47,7 +72,7 @@ The word cloud gives an impression of the casual and interactive nature of dialo
 
 ![WodCloud](images/Word%20Cloud.png)
 
-### Lexical Diversity
+### :five: Lexical Diversity
 #### How this was calculated:
 
 $$
@@ -66,8 +91,8 @@ Chandler and Phoebe exceed the average, highlighting their broader word usage, w
 ![Lexical Diversity](images/Lexical%20Diversity.png)
 
 
-
-### Jokes- Number of Scenes/Lines Correlation Analysis
+# :chart_with_upwards_trend: Correlation Analysis
+### :one: Jokes- Number of Scenes/Lines Correlation Analysis
 
 ### The Findings:
 - The positive correlation means that characters who are in more scenes or have more lines generally tend to have more jokes.
@@ -78,7 +103,7 @@ Chandler appears to have the strongest presence in terms of both jokes and scene
 ![Correlation Analysis2](images/Correlation%20Analysis3.png)
 
 
-### Jokes- Lexical Diversity Correlation Analysis
+### :two: Jokes- Lexical Diversity Correlation Analysis
 
 
 ### The Findings:
