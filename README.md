@@ -1,16 +1,47 @@
 ![Friends](images/Friends.png)
-# Introduction
-:mega: This project explores screenplay script of the most popular sitcom Friends using ChatGPT. This project was is completed following Luke Barousse's [Youtube tutorial](https://www.lukebarousse.com/chatgpt).
+# Table of Context
+___
+- [Table of Context](#table-of-context)
+- [:ab: Introduction](#ab-introduction)
+- [:hammer: Tools I used](#hammer-tools-i-used)
+- [:mag: Exploratory Data Analysis](#mag-exploratory-data-analysis)
+    - [:one: Number of Scenes/ Lines](#one-number-of-scenes-lines)
+    - [:two: Setting Frequency](#two-setting-frequency)
+    - [:three: Humor](#three-humor)
+    - [:four: Common Words Used](#four-common-words-used)
+    - [:five: Lexical Diversity](#five-lexical-diversity)
+      - [How is Lexical Diversity calculated:](#how-is-lexical-diversity-calculated)
+      - [The Findings:](#the-findings)
+    - [:six: Sentiment Analysis (with TextBlob)](#six-sentiment-analysis-with-textblob)
+      - [How is sentiment determined:](#how-is-sentiment-determined)
+      - [How is Polarity Score calculated:](#how-is-polarity-score-calculated)
+      - [The Findings:](#the-findings-1)
+- [:chart\_with\_upwards\_trend: Correlation Analysis](#chart_with_upwards_trend-correlation-analysis)
+    - [:one: Humor-Number of Scenes/Lines Correlation Analysis](#one-humor-number-of-sceneslines-correlation-analysis)
+    - [The Findings:](#the-findings-2)
+    - [:two: Humor-Lexical Diversity Correlation Analysis](#two-humor-lexical-diversity-correlation-analysis)
+    - [The Findings:](#the-findings-3)
+    - [:three: Humor-Sentiment Scores Correlation Analysis](#three-humor-sentiment-scores-correlation-analysis)
+    - [The Findings:](#the-findings-4)
+- [:pencil2: Conclusions](#pencil2-conclusions)
+- [:accept: What I Learned](#accept-what-i-learned)
+
+# :ab: Introduction
+___
+:mega: This project explores screenplay script of the most popular television sitcom [Friends](https://en.wikipedia.org/wiki/Friends) with ChatGPT to provide some inights of the show.  
+This project was completed following Luke Barousse's [Youtube tutorial](https://www.lukebarousse.com/chatgpt).
 
 :bar_chart: **Data Source:** [FRIENDS TV Series - Screenplay Script](https://www.kaggle.com/datasets/blessondensil294/friends-tv-series-screenplay-script/data)
 
-:moyai: **AI Disclaimer:** This entire project was built using ChatGPT, from generating the code for visualizations to producing the text for this markdown file.
+:moyai: **AI Disclaimer:** This entire project, except for 'What I Learned' section, was built using ChatGPT, from generating the code for visualizations to producing the text for this markdown file.  
 
-# Tools I used 
-- **ChatGPT:**
-- **Git & Github:**
+# :hammer: Tools I used
+___
+- **ChatGPT:** An AI language model that can understand and generate human-like text based on the input it receives. It helps answer questions, write content, and assist with various tasks in natural language.
+- **Git & Github:** My go-to for version control and tracking my project progress.
 
 # :mag: Exploratory Data Analysis
+___
 
 ### :one: Number of Scenes/ Lines
 - Rachel: 
@@ -90,7 +121,7 @@ The result is a number between 0 and 1. If the number is closer to 1, it means y
 Chandler and Phoebe exceed the average, highlighting their broader word usage, while Rachel falls below it.
 ![Lexical Diversity](images/Lexical%20Diversity.png)
 
-### :five: Sentiment Analysis (with TextBlob)
+### :six: Sentiment Analysis (with TextBlob)
 #### How is sentiment determined:
 The sentiment is calculated using a tool called TextBlob, which evaluates each line of dialogue and determines whether the sentiment is positive, negative, or neutral. TextBlob calculates something called a polarity score. The polarity score is a number that tells us how positive or negative a sentence is. The score ranges from -1 to 1, with +1 means very positive. -1 means very negative. And 0 means neutral.
 
@@ -134,6 +165,7 @@ where:
 
 
 # :chart_with_upwards_trend: Correlation Analysis
+___
 ### :one: Humor-Number of Scenes/Lines Correlation Analysis
 
 ### The Findings:
@@ -169,11 +201,21 @@ The negative correlation is statistically significant, meaning there's a consist
 ![Correlation Analysis4](images/Correlation%20Analysis4.png)
 
 
-# What I Learned
-:fuelpump: ChatGPT is a very powerful tool that can aid with data analysis work. I can custom my GPT to produce results in tone that I prefer. At the same time, I should be aware of GPT hallucinating in prompts. A resolution to avoid is by adding 'search the Internet' at beginning of the prompt. 
-# Conclusions
-### Insights
-### Closing Thoughts
+# :pencil2: Conclusions
+___
+This project analyzes the popular sitcom Friends, diving into character dynamics, setting preferences, humor trends, and dialogue diversity. Key insights reveal that Rachel leads in lines, Central Perk is the most frequent setting, Chandler and Ross drive humor, and Phoebe maintains the most positive sentiment. The correlation analyses suggest a complex interplay between humor, sentiment, and lexical diversity, highlighting unique character traits like Chandler's sarcastic wit and Phoebe's quirky optimism.
+
+# :accept: What I Learned
+___
+:fuelpump: **Use ChatGPTas an assistant:** ChatGPT is a powerful tool that can significantly enhance data analysis workflows. To improve the accuracy of its responses, I can customize the model to better align with my specific needs. Crafting a well-structured prompt is crucial; providing clear tasks and context forms the foundation of an effective prompt. Adding details about the desired format and tone further refines the response. Additionally, I should stay vigilant about potential inaccuracies or "hallucinations" from ChatGPT. One way to mitigate this is by including 'search the internet' in the prompt to ensure more reliable information.
+
+:bookmark_tabs: **Know the data I'm working with:** Even though ChatGPT is very powerful, it still has limitations and can sometimes give misleading results because of errors or biases in the data it uses. This is why it's so important for me to understand the dataset I'm working with before starting any analysis. Good data quality is key to getting reliable AI insights, which is why data cleaning is always the first step in the ETL (Extract, Transform, Load) process. By making sure the data is accurate and consistent, I can reduce mistakes and make the results more trustworthy. I also need to stay critical of the results, interpret them carefully, and look out for any possible errors or inconsistencies.
+
+:no_entry_sign: **Avoid web scraping:**  Web scraping is often against the terms and conditions of most websites. Instead, I can access the site's data through official APIs or utilize available public datasets from [Google](https://datasetsearch.research.google.com/), [Reddit](https://www.reddit.com/r/datasets/), [Github](https://www.kaggle.com/) or [Kaggle.](https://www.kaggle.com/)
+
+:school: **Never stop learning:** With so many incredible learning resources available today, and ChatGPT opening new opportunities, continuous learning isn't just an option—it's essential.
+
+
 
 
 
