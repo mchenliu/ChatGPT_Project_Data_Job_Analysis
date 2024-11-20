@@ -1,11 +1,20 @@
-# :bulb:  What are the most optimal skills to land a job in data analysis?
-This project was is completed following Luke Barousse's [Youtube course](https://www.lukebarousse.com/chatgpt).
+![Friends](images/Friends.png)
+# Introduction
+:mega: This project explores screenplay script of the most popular sitcom Friends using ChatGPT. This project was is completed following Luke Barousse's [Youtube tutorial](https://www.lukebarousse.com/chatgpt).
 
-:bar_chart: **Data Source:** [datanerd.tech](https://www.datanerd.tech/)
+:bar_chart: **Data Source:** [FRIENDS TV Series - Screenplay Script](https://www.kaggle.com/datasets/blessondensil294/friends-tv-series-screenplay-script/data)
 
-:moyai: **Disclaimer:** This entire project was built using ChatGPT, from generating the code for visualizations to producing the text for this markdown file.
+:moyai: **AI Disclaimer:** This entire project was built using ChatGPT, from generating the code for visualizations to producing the text for this markdown file.
 
-## Results
+# Tools I used
+- **ChatGPT:**
+- **Git & Github:**
+# Exploratory Data Analysis
+## The Results
+# What I Learned
+# Conclusions
+### Insights
+### Closing Thoughts
 
-## Final Results: Optimal Skills for Data Roles 
+
 
