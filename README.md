@@ -73,7 +73,7 @@ The word cloud gives an impression of the casual and interactive nature of dialo
 ![WodCloud](images/Word%20Cloud.png)
 
 ### :five: Lexical Diversity
-#### How this was calculated:
+#### How is Lexical Diversity calculated:
 
 $$
 \text{Lexical Diversity} = \frac{\text{Unique Words} }{\text{Total Words}}
@@ -90,9 +90,51 @@ The result is a number between 0 and 1. If the number is closer to 1, it means y
 Chandler and Phoebe exceed the average, highlighting their broader word usage, while Rachel falls below it.
 ![Lexical Diversity](images/Lexical%20Diversity.png)
 
+### :five: Sentiment Analysis (with TextBlob)
+#### How is sentiment determined:
+The sentiment is calculated using a tool called TextBlob, which evaluates each line of dialogue and determines whether the sentiment is positive, negative, or neutral. TextBlob calculates something called a polarity score. The polarity score is a number that tells us how positive or negative a sentence is. The score ranges from -1 to 1, with +1 means very positive. -1 means very negative. And 0 means neutral.
+
+#### How is Polarity Score calculated:
+$$
+\text{Polarity} = \frac{\sum_{i=1}^{n} s_i}{n}
+$$
+
+where:
+
+- **s<sub>i</sub>**: Sentiment score of the *i*-th word.
+- **n**: Total number of words in the sentence.
+
+Once we have the polarity scores for each line of dialogue:
+
+$$
+\text{Average Polarity for Character} = \frac{\sum_{j=1}^{m} \text{Polarity}_j}{m}
+$$
+
+where:
+
+- **Polarity<sub>j</sub>**: The polarity score of the *j*-th line.
+- **m**: Total number of lines spoken by the character.
+
+#### The Findings:
+
+
+    | Character    | Sentiment Score |
+    | Phoebe       |            0.099|
+    |Rachel        |            0.086|
+    | Chandler     |            0.086|
+    | Ross         |            0.085|
+    | Joey         |            0.082|
+    | Monica       |            0.080|
+
+- Phoebe stands out as the most positive character in terms of dialogue, which matches her quirky and optimistic outlook.
+- Chandler, despite his sarcastic humor, carries a positive sentiment, suggesting his sarcasm is often lighthearted.
+- Monica has the lowest average positivity, reflecting her intense and occasionally critical nature.
+
+
+
 
 # :chart_with_upwards_trend: Correlation Analysis
-### :one: Jokes- Number of Scenes/Lines Correlation Analysis
+### :one: Jokes-Number of Scenes/Lines Correlation Analysis
 
 ### The Findings:
 - The positive correlation means that characters who are in more scenes or have more lines generally tend to have more jokes.
@@ -103,7 +145,7 @@ Chandler appears to have the strongest presence in terms of both jokes and scene
 ![Correlation Analysis2](images/Correlation%20Analysis3.png)
 
 
-### :two: Jokes- Lexical Diversity Correlation Analysis
+### :two: Jokes-Lexical Diversity Correlation Analysis
 
 
 ### The Findings:
@@ -115,6 +157,16 @@ Chandler appears to have the strongest presence in terms of both jokes and scene
 
 The relationship between jokes and lexical diversityisn't meaningful, and other factors could be influencing joke frequency.
 ![Correlation Analysis3](images/Correlation%20Analysis1.png)
+
+
+### :three: Jokes-Sentiment Scores Correlation Analysis
+
+### The Findings:
+- The negative correlation means a strong negative correlation between sentiment and jokes. This means that characters with less positive sentiment tend to make more jokes. Phoebe has a relatively high sentiment score but a low number of jokes, which fits her quirky but not joke-heavy persona. Chandler, known for his sarcasm, has a lower sentiment score and high number of jokes. This suggests that his humor is often delivered with a sarcastic or cynical undertone.
+- The confidence interval showing a range of uncertainty around the trend line.
+
+The negative correlation is statistically significant, meaning there's a consistent relationship between lower sentiment scores and more jokes for these characters.
+![Correlation Analysis4](images/Correlation%20Analysis4.png)
 
 ## The Results
 # What I Learned
