@@ -28,7 +28,7 @@
 
 # :ab: Introduction
 
-:mega: This project explores screenplay script of the most popular television sitcom [Friends](https://en.wikipedia.org/wiki/Friends) with ChatGPT to provide some inights of the show.  
+:mega: This project explores screenplay script of the most popular television sitcom [Friends](https://en.wikipedia.org/wiki/Friends) with ChatGPT and provides some insights.  
 This project was completed following Luke Barousse's [Youtube tutorial](https://www.lukebarousse.com/chatgpt).
 
 :bar_chart: **Data Source:** [FRIENDS TV Series - Screenplay Script](https://www.kaggle.com/datasets/blessondensil294/friends-tv-series-screenplay-script/data)
